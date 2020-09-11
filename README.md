@@ -9,7 +9,7 @@ Webpack4 迁移成功，主框架缩小 5.7 倍，所有页面采用，异步分
 ```
 ## Redux 工作流
 
-![](https://gss0.bdstatic.com/-4o3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike92%2C5%2C5%2C92%2C30/sign=f8ca2379efcd7b89fd6132d16e4d29c2/6a600c338744ebf83681478cd0f9d72a6159a794.jpg)
+![](https://bkimg.cdn.bcebos.com/pic/6a600c338744ebf83681478cd0f9d72a6159a794?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5)
 
 ## 项目展示图
 
