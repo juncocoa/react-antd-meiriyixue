@@ -1,0 +1,7 @@
+/node_modules/*
+.idea/
+.DS_Store
+babel.config.js
+package-lock.json
+webpack.config.js
+webpack.dev.config.js

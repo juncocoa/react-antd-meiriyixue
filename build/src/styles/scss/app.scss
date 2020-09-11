@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot?v=4.3.0');
+  src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.3.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.3.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.3.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.3.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+#app {
+  /* 左侧导航固定宽度 */
+  #leftMenu {
+      top: 0;
+      left: 0;
+      bottom: 0;
+      z-index: 1;
+      box-sizing: border-box;
+      box-shadow: 0 0 6px #a9a9a9;
+  }
+  #leftMenu .antd-pro-menu-logo {
+      position: relative;
+      height: 64px;
+      padding-left: 24px;
+      overflow: hidden;
+      line-height: 64px;
+      background: #002140;
+      transition: all .3s;
+  }
+  #leftMenu  .antd-pro-menu-logo img {
+      display: inline-block;
+      height: 44px;
+      vertical-align: middle;
+  }
+  #leftMenu  .antd-pro-menu-logo h1 {
+      display: inline-block;
+      margin: 0 0 0 12px;
+      color: #fff;
+      font-weight: 600;
+      font-size: 20px;
+      font-family: Avenir,Helvetica Neue,Arial,Helvetica,sans-serif;
+      vertical-align: middle;
+  }
+  /* 右侧宽度自适应 */
+  #rightWrap {
+
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      right: 0;
+      bottom: 0;
+      overflow-y: auto;
+  }
+  #rightWrap .ant-menu-submenu {
+      float: right;
+  }
+  #rightWrap .imgTopHeader{
+      border-radius: 50%;
+      width: 32px;
+      margin-right: 6px;
+      vertical-align: middle;
+      margin-top: -3px;
+  }
+  #rightWrap .ant-layout-header{
+      height: 64px;
+      line-height: 64px;
+      background: #001529;
+      padding: 0px;
+      width: 100%;
+      z-index: 2;
+  }
+  #rightWrap .ant-layout-header .antd-pro-components-global-header-index-header{
+      position: relative;
+      height: 64px;
+      padding: 0;
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(0,21,41,.08);
+  }
+  #rightWrap .antd-pro-components-global-header-index-trigger:hover {
+      background: rgba(0,0,0,.025);
+  }
+  #rightWrap .antd-pro-components-global-header-index-trigger {
+      height: 64px;
+      padding: 22px 24px;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all .3s,padding 0s;
+  }
+  #rightWrap .antd-pro-components-global-header-index-right {
+      float: right;
+      height: 100%;
+      overflow: hidden;
+  }
+  #rightWrap .antd-pro-components-global-header-index-action{
+      display: inline-block;
+      height: 100%;
+      padding: 0 12px;
+      cursor: pointer;
+      transition: all .3s;
+  }
+  #rightWrap .antd-pro-components-global-header-index-action:hover{
+    background: rgba(0,0,0,.025);
+  }
+  #rightWrap .antd-pro-components-global-footer-index-globalFooter{
+    text-align: center;
+  }
+  #rightWrap .antd-pro-components-global-footer-index-copyright{
+    color: rgba(0,0,0,.45);
+    font-size: 14px;
+  }
+  #rightWrap .ant-layout-footer{
+    background-color: #fff;
+  }
+  #rightWrap .divSearchBar{
+    box-shadow: 0 0 5px #c7c7c7;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  #rightWrap .tableClass{
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  #rightWrap .ant-table-small>.ant-table-content>.ant-table-body{
+    margin: 0;
+  }
+  #rightWrap .ant-table-small{
+    font-size: 13px;
+  }
+  #rightWrap .iconTreeNode{
+    vertical-align: baseline;
+    font-size: 15px;
+  }
+}
