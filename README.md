@@ -12,7 +12,7 @@ Webpack4 迁移成功，主框架缩小 5.7 倍，所有页面采用，异步分
 ![](https://bkimg.cdn.bcebos.com/pic/6a600c338744ebf83681478cd0f9d72a6159a794?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U5Mg==,g_7,xp_5,yp_5)
 
 ## 项目展示图
-![file](https://ipictures.github.io/pictures/file.jpg)
+[项目展示图（点击查看）](https://hbb-ads.oss-cn-beijing.aliyuncs.com/file618481400839.gif)
 
 ## 使用方法
 
